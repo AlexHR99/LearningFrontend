@@ -1,0 +1,64 @@
+body {
+    font-family: 'Google Sans', sans-serif;
+}
+h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+header {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact_form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+}
+.contact_form input,
+.contact_form textarea {
+    margin-bottom: 10px;
+    padding-left: 0px;
+}.contact_form textarea {
+    width: 250px;
+    height: 100px;
+}.contact_form br {
+    display: block;
+    margin-bottom: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul {
+        align-items: flex-start;
+    }
+}

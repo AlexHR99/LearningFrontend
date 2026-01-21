@@ -6,24 +6,31 @@
     <!-- SEO meta tags-->
     <meta name="description" content="A simple HTML-based website">
     <meta name="author" content="AlexHR99">
+    <link rel="stylesheet" href="style.css">
     <title>Basic Website</title>
 </head>
 <body>
-    <header style="display: flex; justify-content: space-between; align-items: center;">
+    <header>
         <p>AlexHR99</p>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">/ Projects</a>
-            <a href="articles.html">/ Articles</a>
-            <a href="contact.html">/ Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">/ Projects</a></li>
+                <li><a href="articles.html">/ Articles</a></li>
+                <li><a href="contact.html">/ Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h1 style="text-align: center;">Frontend Developer</h1>
-        <p style="text-align: center;"><i>html only with proper layout, no stylesheet</i></p>
+        <h1>Frontend Developer</h1>
+        <div class="container">
+            <p><i>Basic HTML and CSS-based website</i></p>
+        </div>
     </main>
-    <footer style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 10;">
-        <p><i>Copy-left. No rights reserved</i></p>
+    <footer>
+        <div class="container">
+            <p><i>Copy-left. No rights reserved</i></p>
+        </div>
     </footer>
 </body>
 </html>
