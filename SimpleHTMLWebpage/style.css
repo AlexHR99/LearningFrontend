@@ -6,6 +6,11 @@ h1 {
     font-size: 32px;
     margin-bottom: 15px;
 }
+h3 {
+    font-size: 20px;
+    color: teal;
+    margin-bottom: 0px;
+}
 header {
     display: flex;    
     justify-content: space-between;
@@ -18,7 +23,9 @@ nav ul{
     list-style-type: none;
     padding: 0;
 }
-
+.education li {
+    list-style-type: none;
+}
 main {
     text-align: center;
 }
